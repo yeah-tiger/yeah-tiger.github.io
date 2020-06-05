@@ -8,7 +8,6 @@
   timezone: UTC-12
   date: Mon 13 - Fri 17 July 2020
   place: Online
-  sub: PL
 - title: ICFP
   year: 2020
   id: icfp20
@@ -17,7 +16,6 @@
   timezone: UTC-12
   date: Sun 23 - Fri 28 August 2020
   place: Online
-  sub: PL
 - title: OOPSLA
   year: 2020
   id: oopsla20
@@ -26,7 +24,6 @@
   timezone: UTC-12
   date: Sun 15 - Fri 20 November 2020
   place: Chicago, IL, USA
-  sub: PL
 - title: APLAS
   year: 2020
   id: aplas20
@@ -35,7 +32,6 @@
   timezone: UTC-12
   date: Sun 29 November - Thu 3 December 2020
   place: Fukuoka, Japan
-  sub: PL
 - title: POPL
   year: 2021
   id: popl21
@@ -44,4 +40,3 @@
   timezone: UTC-12
   date: Sun 17 - Fri 22 January 2021
   place: Copenhagen, Denmark
-  sub: PL
