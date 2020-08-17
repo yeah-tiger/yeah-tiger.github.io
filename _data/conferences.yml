@@ -1,5 +1,13 @@
 ---
 
+- title: ECOOP
+  year: 2021
+  id: ecoop21
+  link: https://2021.ecoop.org
+  deadline: '2021-01-11 23:59:59'
+  timezone: UTC-12
+  date: Mon 12 - Fri 16 July 2021
+  place: Aarhus, Denmark
 - title: ESOP
   year: 2021
   id: esop21
