@@ -1,5 +1,13 @@
 ---
 
+- title: ICFP
+  year: 2021
+  id: icfp21
+  link: https://icfp21.sigplan.org
+  deadline: '2021-03-02 23:59:59'
+  timezone: UTC-12
+  date: Sun 22 - Fri 27 August 2021
+  place: Daejeon, South Korea
 - title: ECOOP
   year: 2021
   id: ecoop21
