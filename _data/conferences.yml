@@ -16,6 +16,14 @@
   timezone: UTC-12
   date: Mon 12 - Fri 16 July 2021
   place: Aarhus, Denmark
+- title: PLDI
+  year: 2021
+  id: pldi21
+  link: https://pldi21.sigplan.org
+  deadline: '2020-11-20 23:59:59'
+  timezone: UTC-12
+  date: Sun 20 - Fri 25 June 2021
+  place: Online
 - title: ESOP
   year: 2021
   id: esop21
