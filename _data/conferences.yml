@@ -1,5 +1,13 @@
 ---
 
+- title: OOPSLA
+  year: 2021
+  id: oopsla21
+  link: https://2021.splashcon.org/track/splash-2021-oopsla
+  deadline: '2021-04-16 23:59:59'
+  timezone: UTC-12
+  date: Sun 17 - Fri 22 October 2021
+  place: Chicago, IL, USA
 - title: ICFP
   year: 2021
   id: icfp21
@@ -31,7 +39,7 @@
   deadline: '2020-10-15 23:59:59'
   timezone: UTC-12
   date: Sat 27 March - Thu 1 April 2021
-  place: Luxembourg, Luxembourg
+  place: Online
 - title: POPL
   year: 2021
   id: popl21
@@ -39,7 +47,7 @@
   deadline: '2020-07-09 23:59:59'
   timezone: UTC-12
   date: Sun 17 - Fri 22 January 2021
-  place: Copenhagen, Denmark
+  place: Online
 - title: APLAS
   year: 2020
   id: aplas20
@@ -47,7 +55,7 @@
   deadline: '2020-07-03 23:59:59'
   timezone: UTC-12
   date: Sun 29 November - Thu 3 December 2020
-  place: Fukuoka, Japan
+  place: Online
 - title: OOPSLA
   year: 2020
   id: oopsla20
