@@ -1,5 +1,21 @@
 ---
 
+- title: POPL
+  year: 2022
+  id: popl22
+  link: https://popl22.sigplan.org
+  deadline: '2021-07-08 23:59:59'
+  timezone: UTC-12
+  date: Sun 16 - Fri 21 January 2022
+  place: Philadelphia, PA, USA
+- title: APLAS
+  year: 2021
+  id: aplas21
+  link: https://conf.researchr.org/home/aplas-2021
+  deadline: '2021-06-16 23:59:59'
+  timezone: UTC-12
+  date: Sun 17 - Fri 22 October 2021
+  place: Chicago, IL, USA
 - title: OOPSLA
   year: 2021
   id: oopsla21
@@ -15,7 +31,7 @@
   deadline: '2021-03-02 23:59:59'
   timezone: UTC-12
   date: Sun 22 - Fri 27 August 2021
-  place: Daejeon, South Korea
+  place: Online
 - title: ECOOP
   year: 2021
   id: ecoop21
@@ -23,7 +39,7 @@
   deadline: '2021-01-11 23:59:59'
   timezone: UTC-12
   date: Mon 12 - Fri 16 July 2021
-  place: Aarhus, Denmark
+  place: Online
 - title: PLDI
   year: 2021
   id: pldi21
