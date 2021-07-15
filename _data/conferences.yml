@@ -1,5 +1,13 @@
 ---
 
+- title: ECOOP
+  year: 2022
+  id: ecoop22
+  link: https://conf.researchr.org/home/ecoop-2022
+  deadline: '2021-12-01 23:59:59'
+  timezone: UTC-12
+  date: Mon 6 - Fri 10 June 2022
+  place: Berlin, Germany
 - title: ESOP
   year: 2022
   id: esop22
