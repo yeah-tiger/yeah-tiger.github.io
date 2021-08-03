@@ -3,19 +3,11 @@
 - title: OOPSLA
   year: 2022
   id: oopsla22
-  link: https://2022.splashcon.org
-  deadline: TBA
+  link: https://2022.splashcon.org/track/splash-2022-oopsla
+  deadline: '2021-10-15 23:59:59'
   timezone: UTC-12
   date: Mon 14 - Sat 19 November 2022
   place: Auckland, New Zealand
-- title: FLOPS
-  year: 2022
-  id: flops22
-  link: https://conf.researchr.org/home/flops-2022
-  deadline: TBA
-  timezone: UTC-12
-  date: Tue 10 - Thu 12 May 2022
-  place: Kyoto, Japan
 - title: ECOOP
   year: 2022
   id: ecoop22
@@ -24,6 +16,14 @@
   timezone: UTC-12
   date: Mon 6 - Fri 10 June 2022
   place: Berlin, Germany
+- title: FLOPS
+  year: 2022
+  id: flops22
+  link: https://conf.researchr.org/home/flops-2022
+  deadline: TBA
+  timezone: UTC-12
+  date: Tue 10 - Thu 12 May 2022
+  place: Kyoto, Japan
 - title: ESOP
   year: 2022
   id: esop22
