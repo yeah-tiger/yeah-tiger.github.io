@@ -20,10 +20,11 @@
   year: 2022
   id: flops22
   link: https://conf.researchr.org/home/flops-2022
-  deadline: TBA
+  deadline: '2021-11-21 23:59:59'
   timezone: UTC-12
   date: Tue 10 - Thu 12 May 2022
   place: Kyoto, Japan
+  note: Abstract deadline on 14 November 2021 (AoE)
 - title: ESOP
   year: 2022
   id: esop22
