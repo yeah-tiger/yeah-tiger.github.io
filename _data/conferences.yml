@@ -8,6 +8,14 @@
   timezone: UTC-12
   date: Mon 14 - Sat 19 November 2022
   place: Auckland, New Zealand
+- title: PLDI
+  year: 2022
+  id: pldi22
+  link: https://pldi22.sigplan.org
+  deadline: '2021-11-19 23:59:59'
+  timezone: UTC-12
+  date: Mon 20 - Fri 24 June 2022
+  place: San Diego, CA, USA
 - title: ECOOP
   year: 2022
   id: ecoop22
