@@ -19,7 +19,7 @@
 - title: ECOOP
   year: 2022
   id: ecoop22
-  link: https://conf.researchr.org/home/ecoop-2022
+  link: https://2022.ecoop.org
   deadline: '2021-12-01 23:59:59'
   timezone: UTC-12
   date: Mon 6 - Fri 10 June 2022
@@ -28,11 +28,11 @@
   year: 2022
   id: flops22
   link: https://conf.researchr.org/home/flops-2022
-  deadline: '2021-11-21 23:59:59'
+  deadline: '2021-12-12 23:59:59'
   timezone: UTC-12
   date: Tue 10 - Thu 12 May 2022
   place: Kyoto, Japan
-  note: Abstract deadline on 14 November 2021 (AoE)
+  note: Abstract deadline on 8 December 2021 (AoE)
 - title: ESOP
   year: 2022
   id: esop22
