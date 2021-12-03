@@ -9,6 +9,14 @@
   date: Mon 14 - Sat 19 November 2022
   place: Auckland, New Zealand
   note: Round 1 deadline on 12 October 2021 (AoE)
+- title: ICFP
+  year: 2022
+  id: icfp22
+  link: https://icfp22.sigplan.org
+  deadline: '2022-03-02 23:59:59'
+  timezone: UTC-12
+  date: Sun 11 - Fri 16 September 2022
+  place: Ljubljana, Slovenia
 - title: PLDI
   year: 2022
   id: pldi22
