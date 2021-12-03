@@ -4,10 +4,11 @@
   year: 2022
   id: oopsla22
   link: https://2022.splashcon.org/track/splash-2022-oopsla
-  deadline: '2021-10-12 23:59:59'
+  deadline: '2022-04-15 23:59:59'
   timezone: UTC-12
   date: Mon 14 - Sat 19 November 2022
   place: Auckland, New Zealand
+  note: Round 1 deadline on 12 October 2021 (AoE)
 - title: PLDI
   year: 2022
   id: pldi22
@@ -20,10 +21,11 @@
   year: 2022
   id: ecoop22
   link: https://2022.ecoop.org
-  deadline: '2021-12-01 23:59:59'
+  deadline: '2022-03-01 23:59:59'
   timezone: UTC-12
   date: Mon 6 - Fri 10 June 2022
   place: Berlin, Germany
+  note: Round 1 deadline on 1 December 2021 (AoE)
 - title: FLOPS
   year: 2022
   id: flops22
