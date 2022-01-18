@@ -5,7 +5,6 @@
   id: oopsla22
   link: https://2022.splashcon.org/track/splash-2022-oopsla
   deadline: '2022-04-15 23:59:59'
-  timezone: UTC-12
   date: Mon 14 - Sat 19 November 2022
   place: Auckland, New Zealand
   note: Round 1 deadline on 12 October 2021 (AoE)
@@ -14,7 +13,6 @@
   id: icfp22
   link: https://icfp22.sigplan.org
   deadline: '2022-03-02 23:59:59'
-  timezone: UTC-12
   date: Sun 11 - Fri 16 September 2022
   place: Ljubljana, Slovenia
 - title: PLDI
@@ -22,7 +20,6 @@
   id: pldi22
   link: https://pldi22.sigplan.org
   deadline: '2021-11-19 23:59:59'
-  timezone: UTC-12
   date: Mon 20 - Fri 24 June 2022
   place: San Diego, CA, USA
 - title: ECOOP
@@ -30,7 +27,6 @@
   id: ecoop22
   link: https://2022.ecoop.org
   deadline: '2022-03-01 23:59:59'
-  timezone: UTC-12
   date: Mon 6 - Fri 10 June 2022
   place: Berlin, Germany
   note: Round 1 deadline on 1 December 2021 (AoE)
@@ -39,7 +35,6 @@
   id: flops22
   link: https://conf.researchr.org/home/flops-2022
   deadline: '2021-12-12 23:59:59'
-  timezone: UTC-12
   date: Tue 10 - Thu 12 May 2022
   place: Kyoto, Japan
   note: Abstract deadline on 8 December 2021 (AoE)
@@ -48,7 +43,6 @@
   id: esop22
   link: https://etaps.org/2022/esop
   deadline: '2021-10-14 23:59:59'
-  timezone: UTC-12
   date: Sat 2 - Thu 7 April 2022
   place: Munich, Germany
 - title: POPL
@@ -56,7 +50,6 @@
   id: popl22
   link: https://popl22.sigplan.org
   deadline: '2021-07-08 23:59:59'
-  timezone: UTC-12
   date: Sun 16 - Fri 21 January 2022
   place: Philadelphia, PA, USA
 - title: APLAS
@@ -64,7 +57,6 @@
   id: aplas21
   link: https://conf.researchr.org/home/aplas-2021
   deadline: '2021-06-16 23:59:59'
-  timezone: UTC-12
   date: Sun 17 - Fri 22 October 2021
   place: Chicago, IL, USA
 - title: OOPSLA
@@ -72,7 +64,6 @@
   id: oopsla21
   link: https://2021.splashcon.org/track/splash-2021-oopsla
   deadline: '2021-04-16 23:59:59'
-  timezone: UTC-12
   date: Sun 17 - Fri 22 October 2021
   place: Chicago, IL, USA
 - title: ICFP
@@ -80,7 +71,6 @@
   id: icfp21
   link: https://icfp21.sigplan.org
   deadline: '2021-03-02 23:59:59'
-  timezone: UTC-12
   date: Sun 22 - Fri 27 August 2021
   place: Online
 - title: ECOOP
@@ -88,7 +78,6 @@
   id: ecoop21
   link: https://2021.ecoop.org
   deadline: '2021-01-11 23:59:59'
-  timezone: UTC-12
   date: Mon 12 - Fri 16 July 2021
   place: Online
 - title: PLDI
@@ -96,7 +85,6 @@
   id: pldi21
   link: https://pldi21.sigplan.org
   deadline: '2020-11-20 23:59:59'
-  timezone: UTC-12
   date: Sun 20 - Fri 25 June 2021
   place: Online
 - title: ESOP
@@ -104,7 +92,6 @@
   id: esop21
   link: https://etaps.org/2021/esop
   deadline: '2020-10-15 23:59:59'
-  timezone: UTC-12
   date: Sat 27 March - Thu 1 April 2021
   place: Online
 - title: POPL
@@ -112,7 +99,6 @@
   id: popl21
   link: https://popl21.sigplan.org
   deadline: '2020-07-09 23:59:59'
-  timezone: UTC-12
   date: Sun 17 - Fri 22 January 2021
   place: Online
 - title: APLAS
@@ -120,7 +106,6 @@
   id: aplas20
   link: https://conf.researchr.org/home/aplas-2020
   deadline: '2020-07-03 23:59:59'
-  timezone: UTC-12
   date: Sun 29 November - Thu 3 December 2020
   place: Online
 - title: OOPSLA
@@ -128,7 +113,6 @@
   id: oopsla20
   link: https://2020.splashcon.org/track/splash-2020-oopsla
   deadline: '2020-05-15 23:59:59'
-  timezone: UTC-12
   date: Sun 15 - Fri 20 November 2020
   place: Online
 - title: ICFP
@@ -136,7 +120,6 @@
   id: icfp20
   link: https://icfp20.sigplan.org
   deadline: '2020-03-03 23:59:59'
-  timezone: UTC-12
   date: Sun 23 - Fri 28 August 2020
   place: Online
 - title: ECOOP
@@ -144,6 +127,5 @@
   id: ecoop20
   link: https://2020.ecoop.org
   deadline: '2020-01-10 23:59:59'
-  timezone: UTC-12
   date: Mon 13 - Fri 17 July 2020
   place: Online
