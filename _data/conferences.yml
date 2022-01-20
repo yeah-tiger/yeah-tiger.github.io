@@ -1,5 +1,19 @@
 ---
 
+- title: POPL
+  year: 2023
+  id: popl23
+  link: https://conf.researchr.org/home/POPL-2023
+  deadline: '2022-07-07 23:59:59'
+  date: Sun 15 - Sat 21 January 2023
+  place: San Antonio, TX, USA
+- title: APLAS
+  year: 2022
+  id: aplas22
+  link: https://2022.splashcon.org/home/aplas-2022
+  deadline: TBA
+  date: Mon 14 - Sat 19 November 2022
+  place: Auckland, New Zealand
 - title: OOPSLA
   year: 2022
   id: oopsla22
