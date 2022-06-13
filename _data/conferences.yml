@@ -1,5 +1,12 @@
 ---
 
+- title: ESOP
+  year: 2023
+  id: esop23
+  link: https://etaps.org/2023/esop
+  deadline: '2022-10-13 23:59:59'
+  date: Sat 22 - Thu 27 April 2023
+  place: Paris, France
 - title: POPL
   year: 2023
   id: popl23
