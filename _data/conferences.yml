@@ -1,5 +1,12 @@
 ---
 
+- title: OOPSLA
+  year: 2023
+  id: oopsla23
+  link: https://2023.splashcon.org
+  deadline: '2022-10-28 23:59:59'
+  date: 2023
+  place: Lisbon, Portugal
 - title: ESOP
   year: 2023
   id: esop23
