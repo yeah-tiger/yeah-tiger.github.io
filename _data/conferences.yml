@@ -7,6 +7,13 @@
   deadline: '2022-10-28 23:59:59'
   date: 2023
   place: Lisbon, Portugal
+- title: PLDI
+  year: 2023
+  id: pldi23
+  link: https://pldi23.sigplan.org
+  deadline: '2022-11-10 23:59:59'
+  date: Mon 19 - Wed 21 June 2023
+  place: Orlando, FL, USA
 - title: ESOP
   year: 2023
   id: esop23
