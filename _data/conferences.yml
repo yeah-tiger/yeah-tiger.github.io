@@ -7,6 +7,15 @@
   deadline: '2022-10-28 23:59:59'
   date: 2023
   place: Lisbon, Portugal
+  note: Round 2 deadline on 14 April 2023 (AoE)
+- title: ECOOP
+  year: 2023
+  id: ecoop23
+  link: https://conf.researchr.org/home/ecoop-2023
+  deadline: '2022-12-01 23:59:59'
+  date: Mon 17 - Fri 21 July 2023
+  place: Seattle, WA, USA
+  note: Round 2 deadline on 1 March 2023 (AoE)
 - title: PLDI
   year: 2023
   id: pldi23
