@@ -4,10 +4,10 @@
   year: 2023
   id: oopsla23
   link: https://2023.splashcon.org
-  deadline: '2022-10-28 23:59:59'
+  deadline: '2023-04-14 23:59:59'
   date: 2023
   place: Lisbon, Portugal
-  note: Round 2 deadline on 14 April 2023 (AoE)
+  note: Round 1 deadline on 28 October 2022 (AoE)
 - title: ICFP
   year: 2023
   id: icfp23
@@ -19,10 +19,10 @@
   year: 2023
   id: ecoop23
   link: https://2023.ecoop.org
-  deadline: '2022-12-01 23:59:59'
+  deadline: '2023-03-01 23:59:59'
   date: Mon 17 - Fri 21 July 2023
   place: Seattle, WA, USA
-  note: Round 2 deadline on 1 March 2023 (AoE)
+  note: Round 1 deadline on 1 December 2022 (AoE)
 - title: PLDI
   year: 2023
   id: pldi23
