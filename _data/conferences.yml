@@ -1,9 +1,16 @@
 ---
 
+- title: POPL
+  year: 2024
+  id: popl24
+  link: 
+  deadline: '2023-07-11 23:59:59'
+  date: Wed 17 - Fri 19 January 2024
+  place: London, UK
 - title: OOPSLA
   year: 2023
   id: oopsla23
-  link: https://2023.splashcon.org
+  link: https://2023.splashcon.org/track/splash-2023-oopsla
   deadline: '2023-04-14 23:59:59'
   date: Sun 22 - Fri 27 October 2023
   place: Cascais, Portugal
