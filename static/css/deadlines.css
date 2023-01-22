@@ -165,15 +165,6 @@ footer {
   #conf-timer {
     font-size: 36px;
   }
-  .conf-place {
-    display: none;
-  }
-  .conf-date {
-    display: none;
-  }
-  .note {
-    display: none;
-  }
   .conf-row {
     margin-bottom: 7px;
   }
