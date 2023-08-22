@@ -1,5 +1,24 @@
 ---
 
+- title: POPL
+  year: 2025
+  link: https://popl25.sigplan.org/
+  deadline: '2024-07-09 23:59:59'
+  date: TBA
+  place: TBA
+- title: OOPSLA
+  year: 2024
+  link: https://conf.researchr.org/home/splash-2024
+  deadline: '2024-04-05 23:59:59'
+  date: TBA
+  place: TBA
+  note: Round 1 deadline on 20 Oct 2023 (AoE)
+- title: ICFP
+  year: 2024
+  link: https://conf.researchr.org/home/icfp-2024
+  deadline: '2024-03-01 23:59:59'
+  date: TBA
+  place: TBA
 - title: FLOPS
   year: 2024
   id: flops24
@@ -7,6 +26,13 @@
   deadline: '2023-12-13 23:59:59'
   date: Wed 15 - Fri 17 May 2024
   place: Kumamoto, Japan
+- title: PLDI
+  year: 2024
+  id: pldi24
+  link: https://conf.researchr.org/home/pldi-2024
+  deadline: '2023-11-16 23:59:59'
+  date: TBA
+  place: TBA
 - title: ESOP
   year: 2024
   id: esop24
