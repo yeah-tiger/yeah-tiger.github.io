@@ -41,13 +41,6 @@
   deadline: '2023-12-13 23:59:59'
   date: Wed 15 - Fri 17 May 2024
   place: Kumamoto, Japan
-- title: PLDI
-  year: 2024
-  id: pldi24
-  link: https://conf.researchr.org/home/pldi-2024
-  deadline: '2023-11-16 23:59:59'
-  date: TBA
-  place: TBA
 - title: ESOP
   year: 2024
   id: esop24
