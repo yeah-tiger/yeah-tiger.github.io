@@ -6,19 +6,34 @@
   deadline: '2024-07-09 23:59:59'
   date: TBA
   place: TBA
-- title: OOPSLA
-  year: 2024
-  link: https://conf.researchr.org/home/splash-2024
-  deadline: '2024-04-05 23:59:59'
-  date: TBA
-  place: TBA
-  note: Round 1 deadline on 20 Oct 2023 (AoE)
 - title: ICFP
   year: 2024
   link: https://conf.researchr.org/home/icfp-2024
   deadline: '2024-03-01 23:59:59'
   date: TBA
   place: TBA
+- title: OOPSLA
+  year: 2024
+  id: oopsla24
+  link: https://2024.splashcon.org/track/splash-2024-oopsla
+  deadline: '2023-10-20 23:59:59'
+  date: Sun 20 - Fri 25 October 2024
+  place: Pasadena, CA, USA
+  note: Round 2 deadline on 5 April 2024 (AoE)
+- title: ECOOP
+  year: 2024
+  id: ecoop24
+  link: https://conf.researchr.org/home/ecoop-issta-2024
+  deadline: TBA
+  date: Mon 16 - Fri 20 September 2024
+  place: Vienna, Austria
+- title: PLDI
+  year: 2024
+  id: pldi24
+  link: https://pldi24.sigplan.org
+  deadline: '2023-11-16 23:59:59'
+  date: Mon 24 - Fri 28 June 2024
+  place: Copenhagen, Denmark
 - title: FLOPS
   year: 2024
   id: flops24
