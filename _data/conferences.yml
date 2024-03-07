@@ -1,5 +1,12 @@
 ---
 
+- title: ESOP
+  year: 2025
+  id: esop25
+  link: https://etaps.org/2025/conferences/esop/
+  deadline: '2024-05-30 23:59:59'
+  date: Sat 3 - Thu 8 May 2025
+  place: Hamilton, ON, Canada
 - title: POPL
   year: 2025
   id: popl25
