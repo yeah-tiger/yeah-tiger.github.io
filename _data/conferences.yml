@@ -7,6 +7,7 @@
   deadline: '2024-05-30 23:59:59'
   date: Sat 3 - Thu 8 May 2025
   place: Hamilton, ON, Canada
+  note: Round 2 deadline on 10 October 2024 (AoE)
 - title: POPL
   year: 2025
   id: popl25
@@ -58,6 +59,7 @@
   deadline: '2023-12-13 23:59:59'
   date: Wed 15 - Fri 17 May 2024
   place: Kumamoto, Japan
+  note: Abstract deadline on 6 December 2023 (AoE)
 - title: ESOP
   year: 2024
   id: esop24
