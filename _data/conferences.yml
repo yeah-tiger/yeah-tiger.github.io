@@ -4,10 +4,10 @@
   year: 2025
   id: esop25
   link: https://etaps.org/2025/conferences/esop/
-  deadline: '2024-05-30 23:59:59'
+  deadline: '2024-10-10 23:59:59'
   date: Sat 3 - Thu 8 May 2025
   place: Hamilton, ON, Canada
-  note: Round 2 deadline on 10 October 2024 (AoE)
+  note: Round 1 deadline on 30 May 2024 (AoE)
 - title: POPL
   year: 2025
   id: popl25
