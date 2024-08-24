@@ -1,5 +1,13 @@
 ---
 
+- title: OOPSLA
+  year: 2025
+  id: oopsla25
+  link: https://2025.splashcon.org
+  deadline: '2024-10-15 23:59:59'
+  date: TBA
+  place: Singapore
+  note: Round 2 deadline on 25 March 2025
 - title: ESOP
   year: 2025
   id: esop25
@@ -11,7 +19,7 @@
 - title: POPL
   year: 2025
   id: popl25
-  link: https://popl25.sigplan.org/
+  link: https://popl25.sigplan.org
   deadline: '2024-07-11 23:59:59'
   date: Sun 19 - Sat 25 January 2025
   place: Denver, CO, USA
