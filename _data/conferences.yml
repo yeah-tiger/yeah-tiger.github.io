@@ -7,7 +7,13 @@
   deadline: '2024-10-15 23:59:59'
   date: TBA
   place: Singapore
-  note: Round 2 deadline on 25 March 2025
+  note: Round 2 deadline on 25 March 2025 (AoE)
+- title: PLDI
+  year: 2025
+  id: pldi25
+  link: https://pldi25.sigplan.org
+  deadline: TBA
+  place: Seoul, South Korea
 - title: ESOP
   year: 2025
   id: esop25
