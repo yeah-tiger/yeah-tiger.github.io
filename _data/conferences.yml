@@ -4,10 +4,10 @@
   year: 2025
   id: oopsla25
   link: https://2025.splashcon.org
-  deadline: '2024-10-15 23:59:59'
+  deadline: '2025-03-25 23:59:59'
   date: Sun 12 - Sat 18 October 2025
   place: Singapore
-  note: Round 2 deadline on 25 March 2025 (AoE)
+  note: Round 1 deadline on 15 October 2024 (AoE)
 - title: PLDI
   year: 2025
   id: pldi25
