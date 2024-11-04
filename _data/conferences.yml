@@ -1,5 +1,13 @@
 ---
 
+- title: ECOOP
+  year: 2025
+  id: ecoop25
+  link: https://2025.ecoop.org
+  deadline: '2025-01-06 23:59:59'
+  date: Mon 30 June - Fri 4 July 2025
+  place: Bergen, Norway
+  note: Round 2 deadline on 5 March 2025 (AoE)
 - title: OOPSLA
   year: 2025
   id: oopsla25
