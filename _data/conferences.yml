@@ -1,5 +1,12 @@
 ---
 
+- title: APLAS
+  year: 2025
+  id: aplas25
+  link: https://conf.researchr.org/home/aplas-2025
+  deadline: '2025-05-31 23:59:59'
+  date: Mon 27 - Thu 30 October 2025
+  place: Bengaluru, India
 - title: OOPSLA
   year: 2025
   id: oopsla25
