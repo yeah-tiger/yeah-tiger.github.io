@@ -1,5 +1,4 @@
 ---
-
 - title: APLAS
   year: 2025
   id: aplas25
@@ -15,6 +14,15 @@
   date: Sun 12 - Sat 18 October 2025
   place: Singapore
   note: Round 1 deadline on 15 October 2024 (AoE)
+- title: ITP
+  year: 2025
+  id: itp25
+  link: https://icetcs.github.io/frocos-itp-tableaux25/itp/
+  deadline: '2025-03-19'
+  abstract_deadline: '2025-03-12'
+  date: Sun 27 September - Fri 3 October 2025
+  place: Reykjavik, Iceland
+  note: 'Abstract deadline on March 12, 2025 AOE'
 - title: ICFP
   year: 2025
   id: icfp25
