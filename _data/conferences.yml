@@ -26,10 +26,9 @@
   id: itp25
   link: https://icetcs.github.io/frocos-itp-tableaux25/itp/
   deadline: '2025-03-19'
-  abstract_deadline: '2025-03-12'
   date: Sun 27 September - Fri 3 October 2025
   place: Reykjavik, Iceland
-  note: 'Abstract deadline on March 12, 2025 AOE'
+  note: Abstract deadline on 12 March 2025 (AoE)
 - title: ICFP
   year: 2025
   id: icfp25
