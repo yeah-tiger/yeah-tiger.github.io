@@ -1,4 +1,11 @@
 ---
+- title: POPL
+  year: 2026
+  id: popl26
+  link: https://conf.researchr.org/home/POPL-2026
+  deadline: '2025-07-10 23:59:59'
+  date: Sun 11 - Sat 17 January 2026
+  place: Rennes, France
 - title: APLAS
   year: 2025
   id: aplas25
