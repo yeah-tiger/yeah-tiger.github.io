@@ -1,4 +1,12 @@
 ---
+- title: ESOP
+  year: 2026
+  id: esop26
+  link: https://etaps.org/2026/conferences/esop/
+  deadline: '2025-06-03 23:59:59'
+  date: April 11–16, 2026
+  place: Torino, Italy
+  note: Round 2 deadline on 16 October 2025 (AoE)
 - title: POPL
   year: 2026
   id: popl26
@@ -21,6 +29,13 @@
   date: Sun 12 - Sat 18 October 2025
   place: Singapore
   note: Round 1 deadline on 15 October 2024 (AoE)
+- title: ICFP
+  year: 2025
+  id: icfp25
+  link: https://icfp25.sigplan.org
+  deadline: '2025-02-27 23:59:59'
+  date: Sun 12 - Sat 18 October 2025
+  place: Singapore
 - title: ITP
   year: 2025
   id: itp25
@@ -29,13 +44,6 @@
   date: Sun 27 September - Fri 3 October 2025
   place: Reykjavik, Iceland
   note: Abstract deadline on 12 March 2025 (AoE)
-- title: ICFP
-  year: 2025
-  id: icfp25
-  link: https://icfp25.sigplan.org
-  deadline: '2025-02-27 23:59:59'
-  date: Sun 12 - Sat 18 October 2025
-  place: Singapore
 - title: ECOOP
   year: 2025
   id: ecoop25
