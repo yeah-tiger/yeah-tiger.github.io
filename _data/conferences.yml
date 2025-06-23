@@ -3,10 +3,10 @@
   year: 2026
   id: esop26
   link: https://etaps.org/2026/conferences/esop/
-  deadline: '2025-06-03 23:59:59'
+  deadline: '2025-10-16 23:59:59'
   date: Sat 11 - Thu 16 April 2026
   place: Torino, Italy
-  note: Round 2 deadline on 16 October 2025 (AoE)
+  note: Round 1 deadline on 3 June 2025 (AoE)
 - title: POPL
   year: 2026
   id: popl26
