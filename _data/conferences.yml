@@ -1,4 +1,20 @@
 ---
+- title: OOPSLA
+  year: 2026
+  id: oopsla26
+  link: https://2026.splashcon.org
+  deadline: '2025-10-10 23:59:59'
+  date: Sat 3 - Fri 9 October 2026
+  place: Oakland, CA, USA
+  note: Round 2 deadline on 17 March 2026 (AoE)
+- title: ECOOP
+  year: 2026
+  id: ecoop26
+  link: https://2026.ecoop.org
+  deadline: '2025-11-27 23:59:59'
+  date: Mon 29 June - Fri 3 July 2026
+  place: Brussels, Belgium
+  note: Round 2 deadline on 12 February 2026 (AoE)
 - title: ESOP
   year: 2026
   id: esop26
@@ -10,7 +26,7 @@
 - title: POPL
   year: 2026
   id: popl26
-  link: https://conf.researchr.org/home/POPL-2026
+  link: https://popl26.sigplan.org
   deadline: '2025-07-10 23:59:59'
   date: Sun 11 - Sat 17 January 2026
   place: Rennes, France
