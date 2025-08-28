@@ -15,6 +15,13 @@
   date: Mon 29 June - Fri 3 July 2026
   place: Brussels, Belgium
   note: Round 2 deadline on 12 February 2026 (AoE)
+- title: PLDI
+  year: 2026
+  id: pldi26
+  link: https://pldi26.sigplan.org
+  deadline: '2025-11-13 23:59:59'
+  date: Mon 15 - Fri 19 June 2026
+  place: Boulder, CO, USA
 - title: ESOP
   year: 2026
   id: esop26
