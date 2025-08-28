@@ -22,6 +22,14 @@
   deadline: '2025-11-13 23:59:59'
   date: Mon 15 - Fri 19 June 2026
   place: Boulder, CO, USA
+- title: FLOPS
+  year: 2026
+  id: flops26
+  link: https://functional-logic.org/events/flops/2026/
+  deadline: '2025-12-16 23:59:59'
+  date: Tue 26 - Thu 28 May 2026
+  place: Akita, Japan
+  note: Abstract deadline on 8 December 2025 (AoE)
 - title: ESOP
   year: 2026
   id: esop26
