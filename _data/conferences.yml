@@ -3,10 +3,17 @@
   year: 2026
   id: oopsla26
   link: https://2026.splashcon.org
-  deadline: '2025-10-10 23:59:59'
+  deadline: '2026-03-17 23:59:59'
   date: Sat 3 - Fri 9 October 2026
   place: Oakland, CA, USA
-  note: Round 2 deadline on 17 March 2026 (AoE)
+  note: Round 1 deadline on 10 October 2025 (AoE)
+- title: ICFP
+  year: 2026
+  id: icfp26
+  link: https://icfp26.sigplan.org
+  deadline: '2026-02-19 23:59:59'
+  date: Mon 24 - Sat 29 August 2026
+  place: Indianapolis, IN, USA
 - title: ECOOP
   year: 2026
   id: ecoop26
