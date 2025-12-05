@@ -18,10 +18,10 @@
   year: 2026
   id: ecoop26
   link: https://2026.ecoop.org
-  deadline: '2025-11-27 23:59:59'
+  deadline: '2026-02-12 23:59:59'
   date: Mon 29 June - Fri 3 July 2026
   place: Brussels, Belgium
-  note: Round 2 deadline on 12 February 2026 (AoE)
+  note: Round 1 deadline on 27 November 2025 (AoE)
 - title: PLDI
   year: 2026
   id: pldi26
