@@ -14,6 +14,14 @@
   deadline: '2026-02-19 23:59:59'
   date: Mon 24 - Sat 29 August 2026
   place: Indianapolis, IN, USA
+- title: ITP
+  year: 2026
+  id: itp26
+  link: https://itp-conference-2026.github.io/index.html
+  deadline: '2026-02-19 23:59:59'
+  date: Sun 26 - Wed 29 July 2026
+  place: Lisbon, Portugal
+  note: Abstract deadline on 12 February 2026 (AoE)
 - title: ECOOP
   year: 2026
   id: ecoop26
