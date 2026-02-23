@@ -1,4 +1,11 @@
 ---
+- title: POPL
+  year: 2027
+  id: popl27
+  link: https://popl27.sigplan.org
+  deadline: '2026-07-09 23:59:59'
+  date: Sun 10 - Sat 16 January 2027
+  place: Mexico City, Mexico
 - title: OOPSLA
   year: 2026
   id: oopsla26
