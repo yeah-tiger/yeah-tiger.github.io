@@ -3,10 +3,10 @@
   year: 2027
   id: esop27
   link: https://etaps.org/2027/conferences/esop/
-  deadline: '2026-05-28 23:59:59'
+  deadline: '2026-10-15 23:59:59'
   date: Sat 10 - Thu 15 April 2027
   place: Copenhagen, Denmark
-  note: Round 2 deadline on 15 October 2026 (AoE)
+  note: Round 1 deadline on 28 May 2026 (AoE)
 - title: POPL
   year: 2027
   id: popl27
