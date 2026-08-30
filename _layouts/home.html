@@ -74,8 +74,8 @@
                 {% for deadline in deadlines %}
                 <div id="{{conf.id}}-r{{forloop.index}}" class="round">
                   <div class="round-head">
-                    {% if multiple_deadlines %}<span class="round-label">Round {{forloop.index}}</span>{% endif %}
                     <span class="timer"></span>
+                    {% if multiple_deadlines %}<span class="round-label">Round {{forloop.index}}</span>{% endif %}
                   </div>
                   <div class="round-body">
                     <div class="deadline">Deadline:

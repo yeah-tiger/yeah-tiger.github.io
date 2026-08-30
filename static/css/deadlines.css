@@ -130,22 +130,19 @@ footer {
 .round-head {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 
+/* pushed to the right edge so the timer and the deadline below it stay
+   left-aligned with the single-deadline entries */
 .round-label {
   flex: 0 0 auto;
-  min-width: 62px;
-  margin-right: 8px;
+  margin-left: 8px;
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #888;
-}
-
-/* keep the deadline and the calendar button lined up under the timer */
-.conf-rounds .round-body {
-  padding-left: 70px;
 }
 
 .deadline, .meta {
