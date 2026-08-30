@@ -8,6 +8,29 @@
     - '2027-04-07 23:59:59'
   date: Sun 10 - Fri 15 October 2027
   place: Prague, Czechia
+- title: ICFP
+  year: 2027
+  id: icfp27
+  link: https://icfp27.sigplan.org
+  deadline: '2027-02-25 23:59:59'
+  date: Sun 26 September - Fri 1 October 2027
+  place: Nijmegen, Netherlands
+- title: ECOOP
+  year: 2027
+  id: ecoop27
+  link: https://2027.ecoop.org
+  deadline:
+    - '2026-11-19 23:59:59'
+    - '2027-02-11 23:59:59'
+  date: Mon 28 June - Fri 2 July 2027
+  place: Turin, Italy
+- title: PLDI
+  year: 2027
+  id: pldi27
+  link: https://pldi27.sigplan.org
+  deadline: '2026-11-12 23:59:59'
+  date: Sat 5 - Fri 11 June 2027
+  place: Atlanta, GA, USA
 - title: ESOP
   year: 2027
   id: esop27
