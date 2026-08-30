@@ -50,47 +50,45 @@
           {% assign deadlines = conf.deadline | split: "|||" %}
           {% assign multiple_deadlines = false %}
         {% endif %}
-        {% for deadline in deadlines %}
-        {% capture deadline_id %}{{conf.id}}{% if multiple_deadlines %}r{{forloop.index}}{% endif %}{% endcapture %}
-        <div id="{{deadline_id}}">
+        <div id="{{conf.id}}" class="conf{% if multiple_deadlines %} conf-rounds{% endif %}">
           <div class="row conf-row">
-              <div class="col-xs-5 col-sm-6">
-                  <a class="conf-title" href="{{conf.link}}">{{conf.title}} {{conf.year}}{% if multiple_deadlines %} · Round {{forloop.index}}{% endif %}</a>
-              </div>
-              <div class="col-xs-7 col-sm-6">
-                <span class="timer"></span>
-              </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12 col-sm-6">
-              <div class="meta">
-                <span class="conf-date">{{conf.date}}.</span>
-                <span class="conf-place">
-                  {% if conf.place == "Online" %}
-                  <a href="#">{{conf.place}}</a>.
-                  {% else %}
-                  <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>.
+              <div class="col-xs-12 col-sm-6">
+                  <a class="conf-title" href="{{conf.link}}">{{conf.title}} {{conf.year}}</a>
+                  <div class="meta">
+                    <span class="conf-date">{{conf.date}}.</span>
+                    <span class="conf-place">
+                      {% if conf.place == "Online" %}
+                      <a href="#">{{conf.place}}</a>.
+                      {% else %}
+                      <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>.
+                      {% endif %}
+                    </span>
+                  </div>
+                  {% if conf.note %}
+                  <div class="note">
+                    {{conf.note}}
+                  </div>
                   {% endif %}
-                </span>
               </div>
-              {% if conf.note %}
-              <div class="note">
-                {{conf.note}}
-              </div>
-              {% endif %}
-            </div>
-            <div class="col-xs-12 col-sm-6">
-              <div class="deadline">
-                <div>Deadline:
-                  <span class="deadline-time"></span>
+              <div class="col-xs-12 col-sm-6">
+                {% for deadline in deadlines %}
+                <div id="{{conf.id}}-r{{forloop.index}}" class="round">
+                  <div class="round-head">
+                    {% if multiple_deadlines %}<span class="round-label">Round {{forloop.index}}</span>{% endif %}
+                    <span class="timer"></span>
+                  </div>
+                  <div class="round-body">
+                    <div class="deadline">Deadline:
+                      <span class="deadline-time"></span>
+                    </div>
+                    <div class="calendar"></div>
+                  </div>
                 </div>
+                {% endfor %}
               </div>
-              <div class="calendar"></div>
-            </div>
           </div>
           <hr>
         </div>
-        {% endfor %}
         {% endfor %}
         <footer>
           <div class="row">
@@ -135,24 +133,24 @@
           {% assign multiple_deadlines = false %}
         {% endif %}
         {% for deadline in deadlines %}
-        {% capture deadline_id %}{{conf.id}}{% if multiple_deadlines %}r{{forloop.index}}{% endif %}{% endcapture %}
+        {% capture round_id %}{{conf.id}}-r{{forloop.index}}{% endcapture %}
         {% if deadline == "TBA" %}
-          $('#{{deadline_id}} .timer').html("TBA");
-          $('#{{deadline_id}} .deadline-time').html("TBA");
+          $('#{{round_id}} .timer').html("TBA");
+          $('#{{round_id}} .deadline-time').html("TBA");
         {% else %}
           // adjust date according to deadline timezone
           var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "Etc/GMT+12" {% endif %};
           var confDate = moment.tz("{{deadline}}", timezone);
 
           // render countdown timer
-          $('#{{deadline_id}} .timer').countdown(confDate.toDate(), function(event) {
+          $('#{{round_id}} .timer').countdown(confDate.toDate(), function(event) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
           });
 
           // convert deadline to local timezone
           try {
             var localConfDate = moment.tz(confDate, local_timezone);
-            $('#{{deadline_id}} .deadline-time').html(localConfDate.toString());
+            $('#{{round_id}} .deadline-time').html(localConfDate.toString());
           }
           catch(err) {
             console.log("Error converting to local timezone.");
@@ -164,7 +162,7 @@
               class: 'calendar-obj',
 
               // You can pass an ID. If you don't, one will be generated for you
-              id: '{{deadline_id}}'
+              id: '{{round_id}}'
             },
             data: {
               // Event title
@@ -177,14 +175,17 @@
               duration: 60,
             }
           });
-          document.querySelector('#{{deadline_id}} .calendar').appendChild(myCalendar);
+          document.querySelector('#{{round_id}} .calendar').appendChild(myCalendar);
 
           // check if date has passed, add 'past' class to it
           var today = moment();
           if (today.diff(confDate) > 0)
-            $('#{{deadline_id}}').addClass('past');
+            $('#{{round_id}}').addClass('past');
         {% endif %}
         {% endfor %}
+        // grey out the whole entry only once every round has passed
+        if ($('#{{conf.id}} .round').length == $('#{{conf.id}} .round.past').length)
+          $('#{{conf.id}}').addClass('past');
         {% endfor %}
     });
     <!-- Google analytics -->

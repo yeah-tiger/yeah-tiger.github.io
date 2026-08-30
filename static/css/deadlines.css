@@ -102,6 +102,12 @@ footer {
   opacity: 0.5;
 }
 
+/* an entry that is entirely past is dimmed as a whole, so its
+   individual rounds must not dim a second time */
+.conf.past .round.past {
+  opacity: 1;
+}
+
 .conf-row {
   margin-bottom: 5px;
 }
@@ -109,6 +115,37 @@ footer {
 .conf-title {
   font-size: 20px;
   font-weight: 400;
+}
+
+.conf-title + .meta {
+  margin-top: 2px;
+}
+
+.round + .round {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dotted #e0e0e0;
+}
+
+.round-head {
+  display: flex;
+  align-items: baseline;
+}
+
+.round-label {
+  flex: 0 0 auto;
+  min-width: 62px;
+  margin-right: 8px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #888;
+}
+
+/* keep the deadline and the calendar button lined up under the timer */
+.conf-rounds .round-body {
+  padding-left: 70px;
 }
 
 .deadline, .meta {
