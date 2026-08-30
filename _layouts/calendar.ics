@@ -14,14 +14,23 @@ DTSTART;TZID=Etc/GMT{{ tz }}:{{ conf.abstract_deadline | date: "%Y%m%dT%H%M%S" }
 DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
 DTSTART;TZID={{ conf.timezone }}:{{ conf.abstract_deadline | date: "%Y%m%dT%H%M%S" }}
 {% endif %}END:VEVENT{% endif %}
-{% if conf.deadline != "TBA" %}BEGIN:VEVENT
-SUMMARY:{{ conf.title }} {{ conf.year }} deadline
-UID:{{ conf.id }} {% if conf.timezone contains "UTC" %} {% assign tz = conf.timezone | split: "UTC" %} {% if tz[1] contains "-" %} {% assign tz = tz[1] | replace: "-", "+" %} {% else if tz[1] contains "+" %} {% assign tz = tz[1] | replace: "+", "-" %} {% else assign tz = tz[1] %} {% endif %}
+{% if conf.deadline.first %}
+{% assign deadlines = conf.deadline %}
+{% assign multiple_deadlines = true %}
+{% else %}
+{% assign deadlines = conf.deadline | split: "|||" %}
+{% assign multiple_deadlines = false %}
+{% endif %}
+{% for deadline in deadlines %}
+{% if deadline != "TBA" %}BEGIN:VEVENT
+SUMMARY:{{ conf.title }} {{ conf.year }}{% if multiple_deadlines %} Round {{ forloop.index }}{% endif %} deadline
+UID:{{ conf.id }}{% if multiple_deadlines %}r{{ forloop.index }}{% endif %} {% if conf.timezone contains "UTC" %} {% assign tz = conf.timezone | split: "UTC" %} {% if tz[1] contains "-" %} {% assign tz = tz[1] | replace: "-", "+" %} {% else if tz[1] contains "+" %} {% assign tz = tz[1] | replace: "+", "-" %} {% else assign tz = tz[1] %} {% endif %}
 DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
-DTSTART;TZID=Etc/GMT{{ tz }}:{{ conf.deadline | date: "%Y%m%dT%H%M%S" }}
+DTSTART;TZID=Etc/GMT{{ tz }}:{{ deadline | date: "%Y%m%dT%H%M%S" }}
 {% else %}
 DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
-DTSTART;TZID={{ conf.timezone }}:{{ conf.deadline | date: "%Y%m%dT%H%M%S" }}
+DTSTART;TZID={{ conf.timezone }}:{{ deadline | date: "%Y%m%dT%H%M%S" }}
 {% endif %}END:VEVENT
 {% endif %}
+{% endfor %}
 {%- endfor -%}END:VCALENDAR

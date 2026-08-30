@@ -12,6 +12,7 @@ To add or update a deadline:
 - Make sure it has the `title`, `year`, `id`, `link`, `deadline`, `timezone`, `date`, `place`, `sub` attributes
     + See available timezone strings [here](https://momentjs.com/timezone/).
 - Optionally add a `note` and `abstract_deadline` in case the conference has a separate mandatory abstract deadline
+- `deadline` can be a single timestamp or a list of timestamps. For multiple submission rounds, list the deadlines in round order; they will be displayed as Round 1, Round 2, and so on.
 - Send a pull request
 
 ## Origin

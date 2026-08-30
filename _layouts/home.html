@@ -43,10 +43,19 @@
             </div>
         </div>
         {% for conf in site.data.conferences %}
-        <div id="{{conf.id}}">
+        {% if conf.deadline.first %}
+          {% assign deadlines = conf.deadline %}
+          {% assign multiple_deadlines = true %}
+        {% else %}
+          {% assign deadlines = conf.deadline | split: "|||" %}
+          {% assign multiple_deadlines = false %}
+        {% endif %}
+        {% for deadline in deadlines %}
+        {% capture deadline_id %}{{conf.id}}{% if multiple_deadlines %}r{{forloop.index}}{% endif %}{% endcapture %}
+        <div id="{{deadline_id}}">
           <div class="row conf-row">
               <div class="col-xs-5 col-sm-6">
-                  <a class="conf-title" href="{{conf.link}}">{{conf.title}} {{conf.year}}</a>
+                  <a class="conf-title" href="{{conf.link}}">{{conf.title}} {{conf.year}}{% if multiple_deadlines %} · Round {{forloop.index}}{% endif %}</a>
               </div>
               <div class="col-xs-7 col-sm-6">
                 <span class="timer"></span>
@@ -81,6 +90,7 @@
           </div>
           <hr>
         </div>
+        {% endfor %}
         {% endfor %}
         <footer>
           <div class="row">
@@ -117,23 +127,32 @@
         }
 
         {% for conf in site.data.conferences %}
-        {% if conf.deadline == "TBA" %}
-          $('#{{conf.id}} .timer').html("TBA");
-          $('#{{conf.id}} .deadline-time').html("TBA");
+        {% if conf.deadline.first %}
+          {% assign deadlines = conf.deadline %}
+          {% assign multiple_deadlines = true %}
+        {% else %}
+          {% assign deadlines = conf.deadline | split: "|||" %}
+          {% assign multiple_deadlines = false %}
+        {% endif %}
+        {% for deadline in deadlines %}
+        {% capture deadline_id %}{{conf.id}}{% if multiple_deadlines %}r{{forloop.index}}{% endif %}{% endcapture %}
+        {% if deadline == "TBA" %}
+          $('#{{deadline_id}} .timer').html("TBA");
+          $('#{{deadline_id}} .deadline-time').html("TBA");
         {% else %}
           // adjust date according to deadline timezone
           var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "Etc/GMT+12" {% endif %};
-          var confDate = moment.tz("{{conf.deadline}}", timezone);
+          var confDate = moment.tz("{{deadline}}", timezone);
 
           // render countdown timer
-          $('#{{conf.id}} .timer').countdown(confDate.toDate(), function(event) {
+          $('#{{deadline_id}} .timer').countdown(confDate.toDate(), function(event) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
           });
 
           // convert deadline to local timezone
           try {
             var localConfDate = moment.tz(confDate, local_timezone);
-            $('#{{conf.id}} .deadline-time').html(localConfDate.toString());
+            $('#{{deadline_id}} .deadline-time').html(localConfDate.toString());
           }
           catch(err) {
             console.log("Error converting to local timezone.");
@@ -145,11 +164,11 @@
               class: 'calendar-obj',
 
               // You can pass an ID. If you don't, one will be generated for you
-              id: '{{conf.id}}'
+              id: '{{deadline_id}}'
             },
             data: {
               // Event title
-              title: '{{conf.title}} {{conf.year}} deadline',
+              title: '{{conf.title}} {{conf.year}}{% if multiple_deadlines %} Round {{forloop.index}}{% endif %} deadline',
 
               // Event start date
               start: confDate.toDate(), // new Date('June 15, 2013 19:00'),
@@ -158,13 +177,14 @@
               duration: 60,
             }
           });
-          document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
+          document.querySelector('#{{deadline_id}} .calendar').appendChild(myCalendar);
 
           // check if date has passed, add 'past' class to it
           var today = moment();
           if (today.diff(confDate) > 0)
-            $('#{{conf.id}}').addClass('past');
+            $('#{{deadline_id}}').addClass('past');
         {% endif %}
+        {% endfor %}
         {% endfor %}
     });
     <!-- Google analytics -->
