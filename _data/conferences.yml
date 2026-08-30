@@ -12,10 +12,11 @@
   year: 2027
   id: esop27
   link: https://etaps.org/2027/conferences/esop/
-  deadline: '2026-10-15 23:59:59'
+  deadline:
+    - '2026-05-28 23:59:59'
+    - '2026-10-15 23:59:59'
   date: Sat 10 - Thu 15 April 2027
   place: Copenhagen, Denmark
-  note: Round 1 deadline on 28 May 2026 (AoE)
 - title: POPL
   year: 2027
   id: popl27
@@ -34,10 +35,11 @@
   year: 2026
   id: oopsla26
   link: https://2026.splashcon.org
-  deadline: '2026-03-17 23:59:59'
+  deadline:
+    - '2025-10-10 23:59:59'
+    - '2026-03-17 23:59:59'
   date: Sat 3 - Fri 9 October 2026
   place: Oakland, CA, USA
-  note: Round 1 deadline on 10 October 2025 (AoE)
 - title: ICFP
   year: 2026
   id: icfp26
@@ -57,10 +59,11 @@
   year: 2026
   id: ecoop26
   link: https://2026.ecoop.org
-  deadline: '2026-02-12 23:59:59'
+  deadline:
+    - '2025-11-27 23:59:59'
+    - '2026-02-12 23:59:59'
   date: Mon 29 June - Fri 3 July 2026
   place: Brussels, Belgium
-  note: Round 1 deadline on 27 November 2025 (AoE)
 - title: PLDI
   year: 2026
   id: pldi26
@@ -80,10 +83,11 @@
   year: 2026
   id: esop26
   link: https://etaps.org/2026/conferences/esop/
-  deadline: '2025-10-16 23:59:59'
+  deadline:
+    - '2025-06-03 23:59:59'
+    - '2025-10-16 23:59:59'
   date: Sat 11 - Thu 16 April 2026
   place: Torino, Italy
-  note: Round 1 deadline on 3 June 2025 (AoE)
 - title: POPL
   year: 2026
   id: popl26
@@ -102,10 +106,11 @@
   year: 2025
   id: oopsla25
   link: https://2025.splashcon.org
-  deadline: '2025-03-25 23:59:59'
+  deadline:
+    - '2024-10-15 23:59:59'
+    - '2025-03-25 23:59:59'
   date: Sun 12 - Sat 18 October 2025
   place: Singapore
-  note: Round 1 deadline on 15 October 2024 (AoE)
 - title: ICFP
   year: 2025
   id: icfp25
@@ -125,10 +130,11 @@
   year: 2025
   id: ecoop25
   link: https://2025.ecoop.org
-  deadline: '2025-01-06 23:59:59'
+  deadline:
+    - '2025-01-06 23:59:59'
+    - '2025-03-05 23:59:59'
   date: Mon 30 June - Fri 4 July 2025
   place: Bergen, Norway
-  note: Round 2 deadline on 5 March 2025 (AoE)
 - title: PLDI
   year: 2025
   id: pldi25
@@ -140,10 +146,11 @@
   year: 2025
   id: esop25
   link: https://etaps.org/2025/conferences/esop/
-  deadline: '2024-10-14 23:59:59'
+  deadline:
+    - '2024-05-30 23:59:59'
+    - '2024-10-14 23:59:59'
   date: Sat 3 - Thu 8 May 2025
   place: Hamilton, ON, Canada
-  note: Round 1 deadline on 30 May 2024 (AoE)
 - title: POPL
   year: 2025
   id: popl25
@@ -162,18 +169,20 @@
   year: 2024
   id: oopsla24
   link: https://2024.splashcon.org/track/splash-2024-oopsla
-  deadline: '2024-04-05 23:59:59'
+  deadline:
+    - '2023-10-20 23:59:59'
+    - '2024-04-05 23:59:59'
   date: Sun 20 - Fri 25 October 2024
   place: Pasadena, CA, USA
-  note: Round 1 deadline on 20 October 2023 (AoE)
 - title: ECOOP
   year: 2024
   id: ecoop24
   link: https://2024.ecoop.org
-  deadline: '2024-04-17 23:59:59'
+  deadline:
+    - '2024-01-17 23:59:59'
+    - '2024-04-17 23:59:59'
   date: Mon 16 - Fri 20 September 2024
   place: Vienna, Austria
-  note: Round 1 deadline on 17 January 2024 (AoE)
 - title: ICFP
   year: 2024
   id: icfp24
@@ -221,10 +230,11 @@
   year: 2023
   id: oopsla23
   link: https://2023.splashcon.org/track/splash-2023-oopsla
-  deadline: '2023-04-14 23:59:59'
+  deadline:
+    - '2022-10-28 23:59:59'
+    - '2023-04-14 23:59:59'
   date: Sun 22 - Fri 27 October 2023
   place: Cascais, Portugal
-  note: Round 1 deadline on 28 October 2022 (AoE)
 - title: ICFP
   year: 2023
   id: icfp23
@@ -236,10 +246,11 @@
   year: 2023
   id: ecoop23
   link: https://2023.ecoop.org
-  deadline: '2023-03-01 23:59:59'
+  deadline:
+    - '2022-12-01 23:59:59'
+    - '2023-03-01 23:59:59'
   date: Mon 17 - Fri 21 July 2023
   place: Seattle, WA, USA
-  note: Round 1 deadline on 1 December 2022 (AoE)
 - title: PLDI
   year: 2023
   id: pldi23
@@ -272,10 +283,11 @@
   year: 2022
   id: oopsla22
   link: https://2022.splashcon.org/track/splash-2022-oopsla
-  deadline: '2022-04-15 23:59:59'
+  deadline:
+    - '2021-10-12 23:59:59'
+    - '2022-04-15 23:59:59'
   date: Mon 5 - Sat 10 December 2022
   place: Auckland, New Zealand
-  note: Round 1 deadline on 12 October 2021 (AoE)
 - title: ICFP
   year: 2022
   id: icfp22
@@ -294,10 +306,11 @@
   year: 2022
   id: ecoop22
   link: https://2022.ecoop.org
-  deadline: '2022-03-01 23:59:59'
+  deadline:
+    - '2021-12-01 23:59:59'
+    - '2022-03-01 23:59:59'
   date: Mon 6 - Fri 10 June 2022
   place: Berlin, Germany
-  note: Round 1 deadline on 1 December 2021 (AoE)
 - title: FLOPS
   year: 2022
   id: flops22
