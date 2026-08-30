@@ -1,4 +1,12 @@
 ---
+- title: OOPSLA
+  year: 2027
+  id: oopsla27
+  link: https://conf.researchr.org/track/splash-2027/splashoopsla2027
+  deadline: '2027-04-07 23:59:59'
+  date: Sun 10 - Fri 15 October 2027
+  place: Prague, Czechia
+  note: Round 1 deadline on 14 October 2026 (AoE)
 - title: ESOP
   year: 2027
   id: esop27
